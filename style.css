@@ -1,0 +1,32 @@
+.innerheading{
+    color:pink;
+}
+ 
+body{
+    background-image:url(download.jfif);
+    background-position:center;
+    background-size:cover;
+}
+#head{
+    color:aquamarine
+}
+
+.outerheading{
+    color:aqua;
+    font-size:200px;
+}
+
+.overf{
+    background-color:bisque;
+    color:aqua;
+    font-size:70px;
+    width:600px;
+    height:600px;
+    overflow:scroll;
+}
+
+.selectors>p{
+    color:red;
+    font-size:40px;
+    font-weight:300;
+}

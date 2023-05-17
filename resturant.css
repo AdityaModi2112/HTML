@@ -1,0 +1,14 @@
+#ga{
+    height:80px;
+    width:80px;
+    color:orangered;
+}
+
+#gb{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    padding:30px;
+    box-sizing:border-box;
+    
+}

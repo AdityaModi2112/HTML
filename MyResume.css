@@ -93,12 +93,7 @@ section{
     flex-direction:column;
     align-items:center;
 }
-section:nth-child(2n){
-    background-color:grey;
-}
-section:nth-child(2n+1){
-    background-color:white;
-}
+
 section:target{
     background-color:cyan;
 }
@@ -170,4 +165,37 @@ section:target{
 .five-percent{
     width:5%;
     height:inherit;
+}
+
+
+#work experience{
+    height:400px;
+    width:auto;
+    background-image:linear-gradient(yellow,orange);
+    display:flex;
+    justify-content:center;
+    z-index:1;
+}
+.timeline{
+    position:relative;
+    width:75%;
+}
+.timeline-box{
+    position:relative;
+    margin:5px;
+    width:40%;
+    left:5%;
+    min-height:150px;
+    background-color: aquamarine;
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+#education{
+    height:500px;
+    width:auto;
+    background-image:linear-gradient(red,blue);
+    display:flex;
+    justify-content:flex-start;
+    z-index: 1;
 }

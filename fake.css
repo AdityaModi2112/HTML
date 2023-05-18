@@ -1,0 +1,26 @@
+.cv-col1{
+    background-color: paleturquoise;
+    width:30vw;
+    height:100vh;
+    padding:30px;
+    font-family: 'Poppins', sans-serif;
+}
+.cv-col1 img{
+    width: 120px;
+    margin: 11px;
+    border-radius: 25px;
+    height: 120px;
+}
+.cv-col2{
+    padding:30px;
+    background-color: lightblue;
+    width:70vw;
+    height:100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.cv-col2 spam{
+    color:deeppink;
+}
+.cv-container{
+    display: flex;
+}

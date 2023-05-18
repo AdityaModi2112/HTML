@@ -80,6 +80,8 @@ body{
 }
 .mb-blue{
     background-color:#2857a4;
+    margin: 10px 20px;
+    z-index: 3;
 }
 .text-highlight{
     color:#2857a4;
@@ -97,12 +99,16 @@ section:nth-child(2n){
 section:nth-child(2n+1){
     background-color:white;
 }
+section:target{
+    background-color:cyan;
+}
 #skills{
     height:500px;
     width:auto;
-    background-color:aquamarine;
+    background-image:linear-gradient(red,blue);
     display:flex;
     justify-content:center;
+    z-index: 1;
 }
 .section-heading{
     width:auto;
@@ -119,15 +125,14 @@ section:nth-child(2n+1){
 }
 .skills-display{
     width:70%;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
 }
 .skills-progress{
-    width:7rem;
-    height:1.4rem;
     background-color:lightgrey;
-    border-radius:0.8rem;
+    border-radius:40px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    z-index: 2;
 }
 .skills-name span{
     color:white;
@@ -135,7 +140,7 @@ section:nth-child(2n+1){
     margin-left:10px;
     margin-right:10px;
 }
-.skills-progress>div{
+.skills-progress div{
     border-radius:20px 0px 0px 20px;
 }
 .eighty-five-percent{
